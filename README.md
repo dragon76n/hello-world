@@ -7,11 +7,14 @@ Just a test
 
 =IF(SMALL($J$2:$J$20,1)=J2,1,IF(SMALL($J$2:$J$20,2)=J2,2,IF(SMALL($J$2:$J$20,3)=J2,3,IF(SMALL($J$2:$J$20,4)=J2,4,IF(SMALL($J$2:$J$20,5)=J2,5,"")))))
 
-
 $TX = Target X-Coordinates
+
 $TY = Target Y-Coordinates
+
 $BX = Base X-Coordinates
+
 $BY = Base Y-Coordinates
+
 $DIST = Euclidean Distance
 
 $DIST = SQRT(($TX-$BX)^2+($TY-$BY)^2)
